@@ -1,0 +1,27 @@
+{
+	"name": "packages",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "concurrently \"wsrun --parallel start \""
+	},
+	"workspaces": [
+		"packages/*"
+	],
+	"devDependencies": {
+		"concurrently": "^5.2.0",
+		"wsrun": "^5.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cxxyao2/trpc-demo.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/cxxyao2/trpc-demo/issues"
+	},
+	"homepage": "https://github.com/cxxyao2/trpc-demo#readme"
+}
