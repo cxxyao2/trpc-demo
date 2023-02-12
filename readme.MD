@@ -41,3 +41,7 @@ Error: Debug Failure. False expression: Non-string value passed to `ts.resolveTy
 	"ts-node-dev": "^2.0.0",
 	"typescript": "^4.6.4"
 ```
+
+proofs
+![server screen](/assets/trpc-server.png)
+![client screen](/assets/trpc-client.png)
